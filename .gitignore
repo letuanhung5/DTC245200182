@@ -1,0 +1,16 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Backups and local temporary files
+*.bak
+*.backup
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Docker Compose backups
+docker-compose.yml.bak*
